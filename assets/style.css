@@ -1,0 +1,27 @@
+* {
+    /* background-color: rgb(15, 162, 145); */
+    background-color: white;
+    color: rgb(141, 171, 167);
+    margin: 0;
+    padding: 0;
+}
+
+.tophead {
+    background-color: transparent;
+    text-align: center;
+    font-size: x-large;
+    width: 750px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'monaco', 'lucida console', 'monospace';
+    letter-spacing:  3px;
+}
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
