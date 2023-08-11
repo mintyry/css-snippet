@@ -25,6 +25,15 @@ p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.cardcontent {
+    padding: 10px;
+}
+
 .rowcard {
     width: 400px;
     height: 400px;
@@ -34,26 +43,96 @@ p {
    border-style:dashed ;
    border-color: #8daba7;
 }
-
 .rowtab {
     border: 2px;
     border-style: solid ;
     border-color: grey;
     background-color: white;
     width: 280px;
-    height: 40px;
+    height: 30px;
     position: relative;
     bottom: 20px;
-    left: 20px;
-    border-radius: 12px;
+    left: 60px;
+    border-radius: 20px;
     text-align: center;
 }
-.cardcontent {
+.rowcode {
+    color: black;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    /* font-weight: bolder; */
+    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
+    width:inherit;
+    height: 250px;
+    border-radius: 10px;
     padding: 10px;
 }
-.rowcode {
+
+.columncard {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+   /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
+   border-width: 3px ;
+   border-style:dashed ;
+   border-color: #8daba7;
+   margin-left: auto;
+   margin-right: auto;
+}
+.columntab {
+    border: 2px;
+    border-style: solid ;
+    border-color: grey;
+    background-color: white;
+    width: 280px;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+.columncode {
+    color: black;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    /* font-weight: bolder; */
     background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
-    width: 100%;
+    width:inherit;
     height: 250px;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.gridcard {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+   /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
+   border-width: 3px ;
+   border-style:dashed ;
+   border-color: #8daba7;
+   /* margin-left: auto;
+   margin-right: auto; */
+}
+.gridtab {
+    border: 2px;
+    border-style: solid ;
+    border-color: grey;
+    background-color: white;
+    width: 280px;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+.gridcode {
+    color: black;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    /* font-weight: bolder; */
+    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
+    width:inherit;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
 }
