@@ -27,7 +27,10 @@ p {
 
 .container {
     display: flex;
-    padding: 20px;
+    padding: 50px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    row-gap: 40px;
 }
 
 .cardcontent {
@@ -36,17 +39,18 @@ p {
 
 .rowcard {
     width: 400px;
-    height: 400px;
+    height: fit-content;
     background-color: white;
    /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
    border-width: 3px ;
    border-style:dashed ;
-   border-color: #8daba7;
+   border-color: #cdcdcd;;
+   /* margin-left: 25px; */
 }
 .rowtab {
     border: 2px;
     border-style: solid ;
-    border-color: grey;
+    border-color: #cdcdcd;;
     background-color: white;
     width: 280px;
     height: 30px;
@@ -62,26 +66,27 @@ p {
     /* font-weight: bolder; */
     background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
     width:inherit;
-    height: 250px;
+    height:auto;
     border-radius: 10px;
     padding: 10px;
 }
 
 .columncard {
     width: 400px;
-    height: 400px;
+    height: fit-content;
     background-color: white;
    /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
    border-width: 3px ;
    border-style:dashed ;
-   border-color: #8daba7;
-   margin-left: auto;
-   margin-right: auto;
+   border-color: #cdcdcd;;
+   /* margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 50px; */
 }
 .columntab {
     border: 2px;
     border-style: solid ;
-    border-color: grey;
+    border-color: #cdcdcd;;
     background-color: white;
     width: 280px;
     height: 30px;
@@ -97,26 +102,26 @@ p {
     /* font-weight: bolder; */
     background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
     width:inherit;
-    height: 250px;
+    height: auto;
     border-radius: 10px;
     padding: 10px;
 }
 
 .gridcard {
     width: 400px;
-    height: 400px;
+    height: fit-content;
     background-color: white;
    /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
    border-width: 3px ;
    border-style:dashed ;
-   border-color: #8daba7;
+   border-color: #cdcdcd;;
    /* margin-left: auto;
    margin-right: auto; */
 }
 .gridtab {
     border: 2px;
     border-style: solid ;
-    border-color: grey;
+    border-color: #cdcdcd;
     background-color: white;
     width: 280px;
     height: 30px;
@@ -132,7 +137,112 @@ p {
     /* font-weight: bolder; */
     background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
     width:inherit;
-    height: 250px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lingradcard {
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+   /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
+   border-width: 3px ;
+   border-style:dashed ;
+   border-color: #cdcdcd;;
+   /* margin-left: auto;
+   margin-right: auto; */
+}
+.lingradtab {
+    border: 2px;
+    border-style: solid ;
+    border-color: #cdcdcd;
+    background-color: white;
+    width: 280px;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+.lingradcode {
+    color: black;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    /* font-weight: bolder; */
+    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
+    width:inherit;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.glowcard {
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+   /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
+   border-width: 3px ;
+   border-style:dashed ;
+   border-color: #cdcdcd;;
+   /* margin-left: 50px;
+   margin-right: 50px; */
+}
+.glowtab {
+    border: 2px;
+    border-style: solid ;
+    border-color: #cdcdcd;
+    background-color: white;
+    width: 280px;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+.glowcode {
+    color: black;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    /* font-weight: bolder; */
+    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
+    width:inherit;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.overcard {
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+   /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
+   border-width: 3px ;
+   border-style:dashed ;
+   border-color: #cdcdcd;;
+   /* margin-left: auto;
+   margin-right: auto; */
+}
+.overtab {
+    border: 2px;
+    border-style: solid ;
+    border-color: #cdcdcd;
+    background-color: white;
+    width: 280px;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+.overcode {
+    color: black;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    /* font-weight: bolder; */
+    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
+    width:inherit;
+    height: auto;
     border-radius: 10px;
     padding: 10px;
 }
