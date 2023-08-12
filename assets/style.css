@@ -44,7 +44,7 @@ pre {
     overflow:scroll;
 }
 
-.rowcard, .columncard {
+.rowcard, .columncard, .gridcard, .lingradcard, .glowcard, .overcard {
     width: 400px;
     height: fit-content;
     background-color: white;
@@ -53,7 +53,7 @@ pre {
    border-color: #cdcdcd;;
 }
 
-.rowtab {
+.rowtab, .columntab, .gridtab, .lingradtab, .glowtab, .overtab {
     border: 2px;
     border-style: solid ;
     border-color: #cdcdcd;;
@@ -67,184 +67,12 @@ pre {
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.rowcode {
+.rowcode, .columncode, .gridcode, .lingradcode, .glowcode, .overcode {
     color: black;
     font-family: 'Courier New', 'Courier', 'monospace';
     /* font-weight: bolder; */
     background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
     width:inherit;
-    height:auto;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-
-.columntab {
-    border: 2px;
-    border-style: solid ;
-    border-color: #cdcdcd;;
-    background-color: white;
-    width: 280px;
-    height: 30px;
-    position: relative;
-    bottom: 20px;
-    left: 60px;
-    border-radius: 20px;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    min-height: 100%;
-}
-.columncode {
-    color: black;
-    font-family: 'Courier New', 'Courier', 'monospace';
-    /* font-weight: bolder; */
-    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
-    width:inherit;
-    height: auto;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.gridcard {
-    width: 400px;
-    height: fit-content;
-    background-color: white;
-   /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
-   border-width: 3px ;
-   border-style:dashed ;
-   border-color: #cdcdcd;;
-   /* margin-left: auto;
-   margin-right: auto; */
-}
-.gridtab {
-    border: 2px;
-    border-style: solid ;
-    border-color: #cdcdcd;
-    background-color: white;
-    width: 280px;
-    height: 30px;
-    position: relative;
-    bottom: 20px;
-    left: 60px;
-    border-radius: 20px;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.gridcode {
-    color: black;
-    font-family: 'Courier New', 'Courier', 'monospace';
-    /* font-weight: bolder; */
-    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
-    width:inherit;
-    height: auto;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.lingradcard {
-    width: 400px;
-    height: fit-content;
-    background-color: white;
-   /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
-   border-width: 3px ;
-   border-style:dashed ;
-   border-color: #cdcdcd;;
-   /* margin-left: auto;
-   margin-right: auto; */
-}
-.lingradtab {
-    border: 2px;
-    border-style: solid ;
-    border-color: #cdcdcd;
-    background-color: white;
-    width: 280px;
-    height: 30px;
-    position: relative;
-    bottom: 20px;
-    left: 60px;
-    border-radius: 20px;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.lingradcode {
-    color: black;
-    font-family: 'Courier New', 'Courier', 'monospace';
-    /* font-weight: bolder; */
-    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
-    width:inherit;
-    height: auto;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.glowcard {
-    width: 400px;
-    height: fit-content;
-    background-color: white;
-   /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
-   border-width: 3px ;
-   border-style:dashed ;
-   border-color: #cdcdcd;;
-   /* margin-left: 50px;
-   margin-right: 50px; */
-}
-.glowtab {
-    border: 2px;
-    border-style: solid ;
-    border-color: #cdcdcd;
-    background-color: white;
-    width: 280px;
-    height: 30px;
-    position: relative;
-    bottom: 20px;
-    left: 60px;
-    border-radius: 20px;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.glowcode {
-    color: black;
-    font-family: 'Courier New', 'Courier', 'monospace';
-    /* font-weight: bolder; */
-    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
-    width:inherit;
-    height: auto;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.overcard {
-    width: 400px;
-    height: fit-content;
-    background-color: white;
-   /* background-image: linear-gradient(#10c09f, #55efa5, #adf98a ); */
-   border-width: 3px ;
-   border-style:dashed ;
-   border-color: #cdcdcd;;
-   /* margin-left: auto;
-   margin-right: auto; */
-}
-.overtab {
-    border: 2px;
-    border-style: solid ;
-    border-color: #cdcdcd;
-    background-color: white;
-    width: 280px;
-    height: 30px;
-    position: relative;
-    bottom: 20px;
-    left: 60px;
-    border-radius: 20px;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.overcode {
-    color: black;
-    font-family: 'Courier New', 'Courier', 'monospace';
-    /* font-weight: bolder; */
-    background-image: linear-gradient(#1bf0c9, #80f9be, #b4ff97 );
-    width:inherit;
-    height: auto;
     border-radius: 10px;
     padding: 10px;
 }
