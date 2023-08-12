@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-
+  
 .tophead {
     background-color: transparent;
     text-align: center;
@@ -41,22 +41,33 @@ pre {
     background-color: transparent;
     color: black;
     white-space: pre-wrap;
-    overflow:scroll;
+    user-select: all;
 }
 
-.rowcard, .columncard, .gridcard, .lingradcard, .glowcard, .overcard {
+.card {
     width: 400px;
-    height: fit-content;
+    min-height: 100%;
     background-color: white;
    border-width: 3px ;
    border-style:dashed ;
-   border-color: #cdcdcd;;
+   border-color: #cdcdcd;
+   display: flex;
+   flex-direction: column;
 }
 
-.rowtab, .columntab, .gridtab, .lingradtab, .glowtab, .overtab {
+/* .overcode {
+    flex-grow: 1;
+} */
+/* 
+.over {
+    display: flex;
+    flex-direction: column;
+} */
+
+.tab {
     border: 2px;
     border-style: solid ;
-    border-color: #cdcdcd;;
+    border-color: #cdcdcd;
     background-color: white;
     width: 280px;
     height: 30px;
@@ -67,7 +78,8 @@ pre {
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.rowcode, .columncode, .gridcode, .lingradcode, .glowcode, .overcode {
+
+.syntx {
     color: black;
     font-family: 'Courier New', 'Courier', 'monospace';
     /* font-weight: bolder; */
@@ -75,4 +87,15 @@ pre {
     width:inherit;
     border-radius: 10px;
     padding: 10px;
+    flex-grow: 2;
+}
+
+.card {
+    transition: all 0.5s ease-in-out;
+}
+      
+
+.card:hover .tab, .card:hover{
+        box-shadow: inset 0px 0px 8px #b4ff97, 0 0 15px #b4ff97;
+        color:#1bf0c9;
 }
