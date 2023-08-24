@@ -2,6 +2,8 @@
 
 ## Description
 
+The CSS Snippet application can be viewed [here](https://mintyry.github.io/css-snippet/)!
+
 Sometimes, it can be difficult to find specific CSS code to add specific designs or styles to your page. Thus, i was motivated to provide an easy-to-access guide for quick snippets of CSS code for any developer to use.
 
 This quick snippets page provides code syntax for making flexbox rows and columns, CSS grid layouts, linear gradients, box transition glows, and overlays of cards with titles.
