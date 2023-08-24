@@ -1,59 +1,25 @@
-# css-snippet
-mod02, act 28 mini pro
+# CSS Snippet
 
-# Module 02 Mini-Project: CSS Snippet Cheat Sheet
+## Description
 
-In this activity, you will work with a group to build a webpage that will hold a collection of CSS snippets. What better way to learn CSS than to build a knowledge base of CSS?
+Sometimes, it can be difficult to find specific CSS code to add specific designs or styles to your page. Thus, i was motivated to provide an easy-to-access guide for quick snippets of CSS code for any developer to use.
 
-## Instructions
+This quick snippets page provides code syntax for making flexbox rows and columns, CSS grid layouts, linear gradients, box transition glows, and overlays of cards with titles.
 
-The completed application should meet the following criteria:
+While making this, I learned how to make parts of a webpage glow, how to have one click automatically highlight all the text in a given space, as well as different ways to use positioning and flexbox to size certain parts in relation to other elements of the page.
 
-* As a user, I can view a collection of labeled CSS snippets in a responsive grid.
+## Usage
 
-* As a user, I can easily identify these CSS snippets by their headings.
+You can click on any snippet of CSS code, and it will automatically be highlighted for you to copy and paste as you please.
+The corresponding card you are hovering over will grow green to help ensure you are aware of what code card you are on.
 
-* As a user, I can highlight a code snippet by clicking on it.
+Please see the following screenshot for an example.
 
-* As a user, I can view my application on a mobile device as well as a desktop.
+![Highlight code with one click](assets/images/snipfullpage.png)
 
-### Specifications
+In this example, user clicked on the code desired, and the entire code was highlighted, with no need to drag the cursor throughout in order to highlight. Simply copy & paste to your desire.
 
-* Must use semantic HTML elements and proper indentation.
+## Credits
 
-* Use CSS variables to maintain clean and reusable values for a color scheme.
+Thank you to A. Bradshaw of BCS Support who was very helpful in figuring out how to have the box of code syntax (linear green gradient) fill out to the bottom of its container.
 
-* Use flexbox and media queries to create a responsive grid layout.
-
-* Each CSS snippet should have a card-like layout with the CSS syntax wrapped in an [HTML pre element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre).
-
-* Each CSS snippet can easily be highlighted for copying on click using the [CSS user-select property](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select).
-
-* Must incorporate a background color using a [CSS linear-gradient function](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient).
-
-* Must incorporate a bit of animation using the [CSS transition property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition).
-
-* You and your group can decide which CSS styles and colors you will use to design the application, but the app needs to be a responsive. Use the following images to gain an understanding of how the app should look at different screen sizes, from a layout perspective:
-
-  * At size 992px and above, the app should resemble the following image:
-
-    ![On a desktop, the application displays three CSS code snippets per row.](./Images/01-app-desktop.png)
-
-  * At size 768px and above, the app should resemble the following image:
-
-    ![On a tablet, the application displays two CSS code snippets per row.](./Images/02-app-tablet.png)
-
-  * On mobile devices, anything under 768px, the app should resemble the following image:
-
-    ![On a mobile device, the application displays one CSS code snippet per row.](./Images/03-app-mobile.png)
-
-## 💡 Hints
-
-* The HTML `<pre>` element is very literal about spaces and indentation. To gain a better understanding of how to work with it, check out this article on [considerations for styling the pre tag](https://css-tricks.com/considerations-styling-pre-tag/).
-
-## 🏆 Bonus
-
-* Set this project up in your own GitHub repositories so that you can deploy and use it for future reference!
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
